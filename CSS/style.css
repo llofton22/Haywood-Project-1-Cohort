@@ -81,14 +81,16 @@ footer{
     max-width: 800px;
 }
 
-/* ************************Bootstrap******************* */
+/* ************************CSS Grid******************* */
 
-.container {
-    background-color: purple;
-    height: 5rem;
-}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 5vw);
+    grid-gap: 15px;
 
-.row {
-    background-color: #FF9232;
-    height: 4.7rem;
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
