@@ -3,21 +3,26 @@
 <html lang="en-US">
 
 <head>
-    <title>Harmony Massages</title>
+    <title>Massages with Friends</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="Javascript/script.js">
 </head>
 
 <body> 
     <nav>
-        <div>
-            <a href>Home</a>
-            <a href>Services</a>
-            <a href>Cart</a>
-        </div>  
+        <ul class="topnav">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#AboutUs">About Us</a></li>
+            <li class="topnav-right"><a href="#Services">Services</a></li>
+            <li class="topnav-right"><a href="#Cart">Cart</a></li>
+        </ul>  
     </nav>
 
-    <header>Welcome to Harmony Massages</header>
+    <br>
+
+    <header>Welcome to Massages with Friends</header>
+    <br>
+    <br>
 
     <div>
         <img src="Images/Spa Reception Desk.jpg">
@@ -28,19 +33,22 @@
         several massage packages for your every need. 
     </p>
 
+    <br>
    
     <div>
         <label style="font-size: 20px;">Contact Us</label> <br>
         <br>
         <form>
             Name <br>
-            <input type="text" name="Name"> <br>
+            <input type="text" name="Name" required> <br>
             <br>
             Email Address <br>
-            <input type="text" name="Email Address"> <br>
+            <input type="text" name="Email Address" required> <br>
             <br>
             Message <br>
-            <input type="text" name="Message"> <br>
+            <input type="textarea" name="Message" required> <br>
+            <br>
+            <input type="submit" validation="required"> <br>
         </form>
     </div>
 
