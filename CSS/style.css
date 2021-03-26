@@ -34,8 +34,9 @@ img {
 }
 
 p{
-    font-size: 25px;
+    font-size: 20px;
     color: white;
+    text-align: justify;
 }
 
 body{
@@ -80,3 +81,14 @@ footer{
     max-width: 800px;
 }
 
+/* ************************Bootstrap******************* */
+
+.container {
+    background-color: purple;
+    height: 5rem;
+}
+
+.row {
+    background-color: #FF9232;
+    height: 4.7rem;
+}
