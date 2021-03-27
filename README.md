@@ -4,7 +4,7 @@ LaShonda Haywood
 Description of Project:
 Website of massage spa created by friends
 
-Details:
+Details: Able to see and read about different spa services available. Convenience of maneuvering from page to page.
 
 Technologies Used: HTML, CSS
 
