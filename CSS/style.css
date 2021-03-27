@@ -8,6 +8,10 @@ nav{
     display: block;
     }
 
+h2 {
+    color: orangered;
+}
+
 ul.topnav li {
     list-style: none;
     float: left;
